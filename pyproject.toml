@@ -6,6 +6,7 @@ authors = ["Lucho Leves <lucianoleves@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.6.1"
+fastapi = {extras = ["all"], version = "^0.68.1"}
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.3"
